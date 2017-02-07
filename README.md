@@ -5,6 +5,7 @@ A tool built with Python (2.7) and Selenium to check latest global entry times a
 ### Required
 1. You need [Python](https://www.python.org/).  I used Python 2.7, but imagine it should work fine for 3 if that's what you have
 2. This tool requires you to have [Selenium](http://selenium-python.readthedocs.io/installation.html) set up
+
 ### Optional
 - If you'd like to run off Chrome you also need to get [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 - If you want to email yourself with Gmail you'll likely need to turn on ["Allowing Less Secure Apps"](https://support.google.com/accounts/answer/6010255?hl=en)
@@ -16,6 +17,10 @@ A tool built with Python (2.7) and Selenium to check latest global entry times a
 ```
 */30 7-21 * * * python /path/to/script
 ```
+
+## Limitations/TODOs
+- Doesn't go any more granular than days (could look at parsing into hours)
+- Consider whitelist hours along
 
 ## Contributing
 
